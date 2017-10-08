@@ -36,7 +36,7 @@ ip dhcp pool LA_LAN
 !
 !
 no ip domain lookup
-ip domain name test.com
+ip domain name 
 !
 !
 !
