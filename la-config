@@ -25,6 +25,7 @@ ip cef
 no ip domain lookup
 !
 !
+username cisco password 0 cisco
 !
 !
 interface Loopback0

@@ -14,10 +14,7 @@ enable secret 5 $1$vb8F$3cF0Z3geltoOzvHfzEbom0
 !
 aaa new-model
 !
-!
-!
 aaa session-id common
-!
 !
 ip cef
 no ip dhcp use vrf connected
@@ -38,15 +35,11 @@ no ip domain lookup
 ip domain name 
 !
 !
-!
-!
 username cisco password 0 cisco
 !
 !
 ip ssh time-out 60
 ! 
-!
-!
 !
 interface Loopback0
  ip address 10.100.100.100 255.255.255.255
