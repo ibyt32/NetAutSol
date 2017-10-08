@@ -1,4 +1,3 @@
-
 !
 version 12.4
 service timestamps debug datetime msec
@@ -13,7 +12,7 @@ boot-end-marker
 logging buffered 4096 debugging
 enable secret 5 $1$tYVM$JaPy9T3rWFk4nB0CURoRI1
 !
-no aaa new-model
+aaa new-model
 !
 resource policy
 !
@@ -26,6 +25,7 @@ ip cef
 no ip domain lookup
 !
 !
+username cisco password 0 cisco
 !
 !
 interface Loopback0
